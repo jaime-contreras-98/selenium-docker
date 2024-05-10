@@ -1,0 +1,22 @@
+<suite name="flight-reservation" parallel="tests" thread-count="3">
+    <test name="passangers-count-1">
+        <parameter name="testDataPath" value="test-data/flights/passanger1.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest"/>
+        </classes>
+    </test>
+
+    <test name="passangers-count-2">
+        <parameter name="testDataPath" value="test-data/flights/passanger2.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest"/>
+        </classes>
+    </test>
+
+    <test name="passangers-count-3">
+        <parameter name="testDataPath" value="test-data/flights/passanger3.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest"/>
+        </classes>
+    </test>
+</suite>

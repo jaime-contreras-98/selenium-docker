@@ -1,0 +1,29 @@
+<suite name="vendor-portal" parallel="tests" thread-count="4">
+    <test name="vendor-count-1">
+        <parameter name="testDataPath" value="test-data/vendor-portal/john.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name="vendor-count-2">
+        <parameter name="testDataPath" value="test-data/vendor-portal/mike.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name="vendor-count-3">
+        <parameter name="testDataPath" value="test-data/vendor-portal/sam.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name="vendor-count-4">
+        <parameter name="testDataPath" value="test-data/vendor-portal/john.json" />
+        <classes>
+            <class name="org.udemy.globant.tests.vendorportal.VendorPortalTest"/>
+        </classes>
+    </test>
+</suite>

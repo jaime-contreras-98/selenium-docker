@@ -1,0 +1,11 @@
+{
+  "firstName": "john",
+  "lastName": "travolta",
+  "email": "john@poppp.com",
+  "password": "johnny",
+  "street": "234 e main st",
+  "city": "Los Angeles",
+  "zip": "84610",
+  "passengersCount": "4",
+  "expectedPrice": "$2338 USD"
+}

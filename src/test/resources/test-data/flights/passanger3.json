@@ -1,0 +1,11 @@
+{
+  "firstName": "Muhammad",
+  "lastName": "Ali",
+  "email": "ali@goat.com",
+  "password": "muh-ali",
+  "street": "564 E Phoenix Ave",
+  "city": "Phoenix",
+  "zip": "85000",
+  "passengersCount": "1",
+  "expectedPrice": "$584 USD"
+}
