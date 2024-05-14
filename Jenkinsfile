@@ -8,7 +8,7 @@ pipeline {
             }
             stage('Build Image') {
                 steps {
-                    sh "docker build -t=jaimecontreras/selenium ."
+                    sh 'docker build -t=jaimecontreras98/selenium .'
                 }
             }
             stage('Push Image') {
@@ -17,7 +17,7 @@ pipeline {
                 }
                 steps {
                     sh 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
-                    sh "docker push jaimecontreras/selenium"
+                    sh 'docker push jaimecontreras98/selenium'
                 }
             }
     }
