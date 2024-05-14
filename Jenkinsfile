@@ -8,7 +8,7 @@ pipeline {
             }
             stage('Build Image') {
                 steps {
-                    sh "docker build -t=jaimecontreras/selenium"
+                    sh "docker build -t=jaimecontreras/selenium ."
                 }
             }
             stage('Push Image') {
