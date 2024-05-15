@@ -19,7 +19,7 @@ pipeline {
                     sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
                     sh 'docker push jaimecontreras98/selenium:latest'
                     sh "docker tag jaimecontreras98/selenium:latest jaimecontreras98/selenium:${env.BUILD_NUMBER}"
-                    sh "docker push jaimecontreras98/selenium:{env.BUILD_NUMBER}"
+                    sh "docker push jaimecontreras98/selenium:${env.BUILD_NUMBER}"
                 }
             }
     }
